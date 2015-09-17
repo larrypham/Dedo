@@ -1,4 +1,4 @@
-# RealmCommons
+# Dedo
 A few wrapper classes that combine Realm, Retrofit, and Otto for a quick, stable data system on Android.
 
 ##Realm
