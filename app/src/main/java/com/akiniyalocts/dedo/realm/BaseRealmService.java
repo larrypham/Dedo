@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.akiniyalocts.dedo.BaseApplication;
+import com.akiniyalocts.dedo.Dedo;
 import com.akiniyalocts.dedo.OttoResult;
 import com.squareup.otto.Bus;
 
@@ -33,7 +34,7 @@ public abstract class BaseRealmService<T> extends IntentService implements Callb
      * This gets around generics being lost over the bus. Give your type as an int.
      * @return OttoResult type
      */
-    public abstract int getOttoType();
+    public abstract T getOttoType();
 
     /**
      * Set intent params if needed. Happens before Network Task and Offline select.
@@ -66,7 +67,7 @@ public abstract class BaseRealmService<T> extends IntentService implements Callb
      * @return Bus
      */
     public Bus getBus(){
-        return BaseApplication.getBus();
+        return Dedo.getBus();
     }
 
     @Override protected void onHandleIntent(Intent intent) {

@@ -12,18 +12,6 @@ public abstract class BaseApplication extends Application {
 
     private static Context context;
 
-    private static Bus bus;
-
-    public static Bus getBus(){
-        if(bus != null)
-            return bus;
-        else{
-            bus = new Bus();
-
-            return bus;
-        }
-    }
-
     public static Context getContext(){
         return context;
     }

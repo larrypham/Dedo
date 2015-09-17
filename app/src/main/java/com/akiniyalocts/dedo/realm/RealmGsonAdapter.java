@@ -15,7 +15,7 @@ import io.realm.RealmObject;
  */
 public class RealmGsonAdapter {
 
-    public Gson getGson(){
+    public static Gson getGson(){
 
         return new GsonBuilder()
                 .setExclusionStrategies(new ExclusionStrategy() {

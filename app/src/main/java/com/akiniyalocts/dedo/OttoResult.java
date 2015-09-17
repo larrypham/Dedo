@@ -8,7 +8,7 @@ import java.util.List;
 public class OttoResult<T> {
     public List<T> items;
 
-    public int type;
+    public T type;
 
     public List<T> getItems() {
         return items;
@@ -18,11 +18,11 @@ public class OttoResult<T> {
         this.items = items;
     }
 
-    public int getType() {
+    public T getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(T type) {
         this.type = type;
     }
 }
