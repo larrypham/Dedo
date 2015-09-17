@@ -1,11 +1,11 @@
-package com.akiniyalocts.realmcommons.realm;
+package com.akiniyalocts.dedo.realm;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
-import com.akiniyalocts.realmcommons.BaseApplication;
-import com.akiniyalocts.realmcommons.OttoResult;
+import com.akiniyalocts.dedo.BaseApplication;
+import com.akiniyalocts.dedo.OttoResult;
 import com.squareup.otto.Bus;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.akiniyalocts.realmcommons.realm;
+package com.akiniyalocts.dedo.realm;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonDeserializationContext;

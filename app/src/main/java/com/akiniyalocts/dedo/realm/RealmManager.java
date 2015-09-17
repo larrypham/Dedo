@@ -1,4 +1,4 @@
-package com.akiniyalocts.realmcommons.realm;
+package com.akiniyalocts.dedo.realm;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

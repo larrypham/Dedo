@@ -1,4 +1,4 @@
-package com.akiniyalocts.realmcommons;
+package com.akiniyalocts.dedo;
 
 import java.util.List;
 
